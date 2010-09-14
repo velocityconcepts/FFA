@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent" 
+              android:layout_height="fill_parent"
+              android:orientation="vertical" >
+    <TextView android:id="@+id/client_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize = "20px"
+              android:padding = "10dp"
+              android:text="Velocity Concepts" />
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#E2E2E2"
+	    android:padding = "20dp"
+	    android:stretchColumns="1">
+	    <TableRow>
+	        <TextView android:id="@+id/contact_outstanding_label"
+	            android:text="Oustanding:"
+	            android:textSize = "20px"
+	            android:textColor = "#090909"
+	            android:textStyle = "bold"
+	            android:padding="3dip" />
+	        <TextView android:id="@+id/contact_outstanding"
+	            android:text="0.00"
+	            android:textSize = "20px"
+	            android:textColor = "#090909"
+	            android:textStyle = "bold"
+	            android:gravity="right"
+	            android:padding="3dip" />
+	    </TableRow>
+	
+	    <TableRow>
+	        <TextView android:id="@+id/contact_credit_label"
+	            android:text="Credit:"
+	            android:textSize = "20px"
+	            android:textColor = "#090909"
+	            android:textStyle = "bold"
+	            android:padding="3dip" />
+	        <TextView android:id="@+id/contact_credit"
+	            android:text="-56.75"
+	            android:textSize = "20px"
+	            android:textColor = "#090909"
+	            android:textStyle = "bold"
+	            android:gravity="right"
+	            android:padding="3dip" />
+	    </TableRow>	
+	    <TableRow>
+	        <Button android:id="@+id/add_credit_button"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Add Credit" />
+	        
+	    </TableRow>    
+	</TableLayout>
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:stretchColumns="1">
+	    <TableRow>
+	        <TextView android:id="@+id/contact_invoicedBy_label"
+	            android:text="Invoices Sent By:"
+	            android:padding="3dip" />
+	        <TextView android:id="@+id/contact_invoicedBy"
+	            android:text="Email"
+	            android:gravity="right"
+	            android:padding="3dip" />
+	    </TableRow> 
+	</TableLayout>
+	    <!--<TableRow>
+	        <TextView android:id="@+id/contact_name_label"
+	            android:text="Contact:"
+	            android:padding="3dip" />
+	        <TextView android:id="@+id/contact_name"
+	            android:text="Brian Guertin"
+	            android:gravity="right"
+	            android:padding="3dip" />
+	    </TableRow>
+	
+	    <TableRow>
+	        <TextView android:id="@+id/contact_name_label"
+	            android:text="Email:"
+	            android:padding="3dip" />
+	        <TextView android:id="@+id/contact_name"
+	            android:text="info@velocity-concepts.com"
+	            android:gravity="right"
+	            android:padding="3dip" />
+	    </TableRow>
+	    <TableRow>
+	        <TextView android:id="@+id/contact_username_label"
+	            android:text="Username:"
+	            android:padding="3dip" />
+	        <TextView android:id="@+id/contact_username"
+	            android:text="velocityconcepts"
+	            android:gravity="right"
+	            android:padding="3dip" />
+	    </TableRow>
+	
+	    <TableRow>
+	        <TextView android:id="@+id/contact_lastLogin_label"
+	            android:text="Last Login:"
+	            android:padding="3dip" />
+	        <TextView android:id="@+id/contact_lastLogin"
+	            android:text="May 12, 2010"
+	            android:gravity="right"
+	            android:padding="3dip" />
+	    </TableRow>
+	    
+	--><ListView android:id="@+id/contact_list"
+			android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <Button android:id="@+id/add_contact_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create New Client" />
+</LinearLayout>

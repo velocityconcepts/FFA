@@ -1,0 +1,10 @@
+<resources>
+	<string-array name="invoices">
+		<item>09/05/10 - Velocity Concepts</item>
+		<item>09/03/10 - SEO Smooth</item>
+		<item>09/02/10 - Wintrust Financial Corp</item>
+		<item>08/29/10 - McDonalds</item>
+		<item>08/26/10 - NBA</item>
+		<item>08/09/10 - Activision</item>
+	</string-array>
+</resources>

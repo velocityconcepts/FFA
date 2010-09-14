@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="dashboard_items">
+		<item>Clients</item>
+		<item>Team</item>
+		<item>Invoices</item>
+		<item>Estimates</item>
+		<item>Expenses</item>
+		<item>Time Tracking</item>
+	</string-array>
+</resources>
+

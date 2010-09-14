@@ -1,0 +1,10 @@
+<resources>
+	<string-array name="clients">
+		<item>Velocity Concepts</item>
+		<item>SEO Smooth</item>
+		<item>Wintrust Financial Corp</item>
+		<item>McDonalds</item>
+		<item>NBA</item>
+		<item>Activision</item>
+	</string-array>
+</resources>

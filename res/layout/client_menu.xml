@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/contact_edit"
+          android:title="Edit" />
+    <item android:id="@+id/create_new"
+          android:title="Create New...">
+          <menu>
+		    <group android:checkableBehavior="single">
+		        <item android:id="@+id/invoice"
+		              android:title="Invoice" />
+		        <item android:id="@+id/recurring"
+		              android:title="Recurring" />
+		        <item android:id="@+id/estimate"
+		              android:title="Estimate" />
+		        <item android:id="@+id/project"
+		              android:title="Project" />
+		        <item android:id="@+id/email"
+		              android:title="Email" />
+		    </group>
+		</menu>
+     </item>
+</menu>

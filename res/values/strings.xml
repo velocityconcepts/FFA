@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HelloDroid!</string>
+    <string name="app_name">Freshbooks for Android</string>
+	<string name="username">Username</string>
+	<string name="password">Password</string>
+	<string name="account_name">User Account</string>
+	<string name="token">Token</string>
+	<string name="payment_method">Please select a payment method!</string>
+	<string-array name="payment_method_types">
+        <item>Check</item>
+        <item>Bank Transfer</item>
+        <item>Credit</item>
+        <item>Cash</item>
+        <item>Debit</item>
+    </string-array>
+    <string name="payment_currency">Please select a currency!</string>
+	<string-array name="payment_currency_types">
+        <item>USD</item>
+        <item>EURO</item>
+        <item>YEN</item>
+    </string-array>
+</resources>

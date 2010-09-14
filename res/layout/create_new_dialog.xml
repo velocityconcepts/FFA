@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/invoice"
+              android:title="Invoice" />
+        <item android:id="@+id/recurring"
+              android:title="Recurring" />
+        <item android:id="@+id/estimate"
+              android:title="Estimate" />
+        <item android:id="@+id/project"
+              android:title="Project" />
+        <item android:id="@+id/email"
+              android:title="Email" />
+    </group>
+</menu>

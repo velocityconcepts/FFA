@@ -1,0 +1,7 @@
+<resources>
+	<string-array name="contacts">
+		<item>Brian Guertin</item>
+		<item>Matt LeBrun</item>
+		<item>Teddy Pieper</item>
+	</string-array>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+    <TableRow android:paddingTop="6dip">
+        <TextView
+            android:text="Credit Amount"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+	    <EditText
+            android:text="0.00"
+            android:height="20px"
+            android:gravity="center|right"
+            android:singleLine="true"
+            android:inputType="number"/>
+        <Spinner
+            android:id="@+id/spinner_currency"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:prompt="@string/payment_currency" />
+    </TableRow>
+    <TableRow android:paddingTop="6dip">
+        <TextView
+            android:text="Payment Method"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <Spinner
+            android:id="@+id/spinner"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:prompt="@string/payment_method" />
+        <Button
+            android:text="09/07/2010"
+            android:id="@+id/date_pick"
+            android:gravity="center_vertical"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:prompt="@string/payment_method" />
+    </TableRow>
+	<TextView
+            android:text="Notes"
+            android:padding="3dip" />
+    <EditText
+        android:id="@+id/spinner_currency"
+        android:gravity="top|left"
+	    android:layout_width="fill_parent"
+	    android:layout_height="100px" />
+    <Button
+        android:text="Add Credit"
+        android:id="@+id/add_credit_button"
+        android:layout_width="wrap_content"
+     	android:layout_height="wrap_content"
+        android:padding="6dip" />
+</TableLayout>

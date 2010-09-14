@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" 
+	        android:layout_height="fill_parent">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	              android:layout_width="fill_parent" 
+	              android:layout_height="fill_parent"
+	              android:scrollbars="vertical"
+	              android:orientation="vertical" >
+<!-- Required Fields -->
+	    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:background="#E2E2E2"
+		    android:padding="20dp"
+		    android:stretchColumns="1">
+		    <TableRow>
+		        <TextView android:id="@+id/first_name"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:textColor="#090909"
+		            	android:textStyle="bold"
+						android:text="Required:" />
+		    </TableRow>
+		    <TableRow>
+		        <TextView android:id="@+id/first_name"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:textColor="#090909"
+		            	android:paddingRight="6dip"
+						android:text="First Name" />
+			    <EditText android:id="@+id/first_name_field"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:inputType="textShortMessage"
+						android:imeOptions="actionSend"
+						android:maxLines="1"/>
+		    </TableRow>
+		
+		    <TableRow>
+		        <TextView android:id="@+id/last_name"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:textColor="#090909"
+		            	android:paddingRight="6dip"
+						android:text="Last Name" />
+			    <EditText android:id="@+id/last_name_field"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:inputType="textShortMessage"
+						android:imeOptions="actionSend"
+						android:maxLines="1"/>
+		    </TableRow>
+		    <TableRow>	 
+			    <TextView android:id="@+id/contact_email"
+						  android:layout_width="wrap_content"
+						  android:layout_height="wrap_content"
+						  android:textColor="#090909"
+			           	  android:paddingRight="6dip"
+						  android:text="Email" />
+			    <EditText android:id="@+id/contact_email_field"
+						  android:layout_width="fill_parent"
+						  android:layout_height="wrap_content"
+						  android:inputType="textShortMessage"
+						  android:imeOptions="actionSend"
+						  android:maxLines="1"/>
+			</TableRow>
+			<TableRow>
+			    <TextView android:id="@+id/phone1"
+						  android:layout_width="wrap_content"
+						  android:layout_height="wrap_content"
+						  android:textColor="#090909"
+		            	  android:paddingRight="6dip"
+						  android:text="Phone 1" />
+			    <EditText android:id="@+id/phone1_field"
+					      android:layout_width="fill_parent"
+					      android:layout_height="wrap_content"
+					      android:inputType="textShortMessage"
+					      android:imeOptions="actionSend"
+					      android:maxLines="1"/>  
+			</TableRow> 
+		</TableLayout>
+<!-- Optional Fields -->
+	    <TextView android:id="@+id/phone2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Phone 2" />
+	    <EditText android:id="@+id/phone2_field"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:inputType="textShortMessage"
+				android:imeOptions="actionSend"
+				android:maxLines="1"/>
+<!-- Assign User name Option -->
+		<CheckBox android:id="@+id/assign_username_checkbox"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Assign Username?" />
+	     <TextView android:id="@+id/contact_username"
+	     		android:visibility="gone"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Username" />
+	     <EditText android:id="@+id/contact_username_field"
+	     		android:visibility="gone"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="textShortMessage"
+		        android:imeOptions="actionSend"
+		        android:maxLines="1"/>
+		 <TextView android:id="@+id/contact_password"
+	     		android:visibility="gone"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Pasword" />
+	     <EditText android:id="@+id/contact_password_field"
+	     		android:visibility="gone"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="textShortMessage"
+		        android:imeOptions="actionSend"
+		        android:maxLines="1"/>
+		 <TextView android:id="@+id/contact_pw_check"
+	     		android:visibility="gone"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Password Again" />
+	     <EditText android:id="@+id/contact_pw_check_field"
+	     		android:visibility="gone"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="textShortMessage"
+		        android:imeOptions="actionSend"
+		        android:maxLines="1"/>
+<!-- Submit -->
+		 <Button android:id="@+id/add_contact_button"
+	    	    android:text="Add Contact"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	</LinearLayout>
+</ScrollView>
