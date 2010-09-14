@@ -38,7 +38,7 @@ public class LoginActivity extends Activity {
             	 if(check_acct.equals("mlebrun") && check_token.equals("Y7u8i9o0p?")){
             		// if success create and intent to the dashboard activity */
             		Intent myIntent = new Intent();
-                	myIntent.setClassName("com.freshdroid.hellodroid", "com.freshdroid.hellodroid.DashboardListActivity");
+                	myIntent.setClassName("com.velocity_concepts.freshbooks", "com.velocity_concepts.freshbooks.DashboardListActivity");
             		startActivity(myIntent);
             	/* } else {
             	    status.setText("Login failed. Incorrect credentials.");

@@ -39,7 +39,7 @@ public class ClientActivity extends Activity {
 	        int position, long id) {
 	      // When clicked, show a client profile
 	    	Intent myIntent = new Intent();
-        	myIntent.setClassName("com.freshdroid.hellodroid", "com.freshdroid.hellodroid.ClientActivity");
+        	myIntent.setClassName("com.velocity_concepts.freshbooks", "com.velocity_concepts.freshbooks.ClientActivity");
     		startActivity(myIntent);
 	    }
 	  });

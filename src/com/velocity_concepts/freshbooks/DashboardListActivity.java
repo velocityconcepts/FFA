@@ -31,7 +31,7 @@ public class DashboardListActivity extends ListActivity {
 	        //Toast.makeText(getApplicationContext(), ((TextView) view).getText(), Toast.LENGTH_SHORT).show();
 	    	String selected = ""+((TextView) view).getText();
 	    	Intent myIntent = new Intent();
-        	myIntent.setClassName("com.freshdroid.hellodroid", "com.freshdroid.hellodroid."+selected+"Activity");
+        	myIntent.setClassName("com.velocity_concepts.freshbooks", "com.velocity_concepts.freshbooks."+selected+"Activity");
     		startActivity(myIntent);
 	    }
 	  });
