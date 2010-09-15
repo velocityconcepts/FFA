@@ -16,9 +16,9 @@ public class InvoicesActivity extends ListActivity {
 	public void onCreate(Bundle savedInstanceState) {
 	  super.onCreate(savedInstanceState);
 
-	  String[] items = getResources().getStringArray(R.array.clients);
+	  String[] items = getResources().getStringArray(R.array.invoices);
 
-	  setListAdapter(new ArrayAdapter<String>(this, R.layout.dashboard_item, items));
+	  setListAdapter(new ArrayAdapter<String>(this, R.layout.invoice_item, items));
 
 	  ListView lv = getListView();
 	  lv.setTextFilterEnabled(true);
@@ -28,7 +28,7 @@ public class InvoicesActivity extends ListActivity {
 	        int position, long id) {
 	      // When clicked, show a client profile
 	    	Intent myIntent = new Intent();
-        	myIntent.setClassName("com.velocity_concepts.freshbooks", "com.velocity_concepts.freshbooks.ClientActivity");
+        	myIntent.setClassName("com.velocity_concepts.freshbooks", "com.velocity_concepts.freshbooks.InvoiceActivity");
     		startActivity(myIntent);
 	    }
 	  });

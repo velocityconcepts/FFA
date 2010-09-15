@@ -16,8 +16,9 @@
 	    <activity android:name=".DashboardListActivity">
 	    	<action android:name="android.intent.action.PICK" />
 	    	<category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
-	    	
 	    </activity>
+	    
+	    
 	    <activity android:name=".ClientsActivity">
 	    	<action android:name="android.intent.action.PICK" />
 	    	<category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
@@ -32,7 +33,12 @@
 	    	<category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
 	    </activity>
 	    
+	    
 	    <activity android:name=".InvoicesActivity">
+	    	<action android:name="android.intent.action.PICK" />
+	    	<category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
+	    </activity>
+	    <activity android:name=".InvoiceActivity">
 	    	<action android:name="android.intent.action.PICK" />
 	    	<category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
 	    </activity>
